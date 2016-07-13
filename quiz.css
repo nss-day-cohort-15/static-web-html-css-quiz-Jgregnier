@@ -1,0 +1,59 @@
+.cards {
+	height: 260px;
+	width: 200px;
+	display: block;
+	margin: auto;
+}
+
+.article{
+	width: 30%;
+	height: 25%;
+	display: inline-block;
+	border: solid 1px lightblue;
+	margin: 5px 15px 5px 15px;
+}
+
+.cardTitle{
+  border: dotted 1px lightgrey;
+  text-align: center;
+  margin-top: 0;
+}
+
+.available{
+	background-color: grey;
+	color: yellow;
+}
+
+.specsPriceHeader{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.specsValidUntil{
+  font-size: .8em;
+}
+
+.generalSpecsPrice {
+	font-weight: bold;
+	text-indent: 1em
+}
+
+@media (max-width: 1000px){
+	.article {
+		width: 40%; 
+		display: block;
+		margin: 30px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
