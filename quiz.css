@@ -38,9 +38,9 @@
 	text-indent: 1em
 }
 
-@media (max-width: 1000px){
+@media (max-width: 800px){
 	.article {
-		width: 40%; 
+		width: 40%;
 		display: block;
 		margin: 30px auto;
 	}
